@@ -2,7 +2,7 @@ import "./navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="nav_box">
+    <nav className="nav_box">
       <div className="nav_left">
         <img
           src="http://logos-download.com/wp-content/uploads/2016/09/React_logo_logotype_emblem.png"
@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="nav_right">
         <h4>React Course - Project 1</h4>
       </div>
-    </div>
+    </nav>
   );
 };
 

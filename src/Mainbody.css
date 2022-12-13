@@ -5,11 +5,21 @@
   height: 459px;
   padding-left: 15px;
   padding-top: 30px;
-  background-image: "http://logos-download.com/wp-content/uploads/2016/09/React_logo_logotype_emblem.png";
+  background-image: url(./React_logo_logotype_emblem.png);
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  /* background-attachment: fixed; */
 }
 .body_ul {
   height: 180px;
+  max-width: 400px;
 }
 .body_ul li {
-  padding-top: 15px;
+  padding-block: 10px;
+}
+.body_ul li::marker {
+  color: #61dafb;
+  font-size: x-large;
 }

@@ -2,7 +2,7 @@ import "./Mainbody.css";
 
 const MainBody = () => {
   return (
-    <div className="body">
+    <main className="body">
       <h1>Fun Facts About React.</h1>
       <div className="body_ul">
         <ul>
@@ -13,7 +13,7 @@ const MainBody = () => {
           <li>Power thousands of enterprise apps including mobile apps.</li>
         </ul>
       </div>
-    </div>
+    </main>
   );
 };
 
