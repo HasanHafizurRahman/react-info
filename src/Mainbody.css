@@ -1,0 +1,15 @@
+.body {
+  background-color: #282d35;
+  color: #ffffff;
+  width: 550px;
+  height: 459px;
+  padding-left: 15px;
+  padding-top: 30px;
+  background-image: "http://logos-download.com/wp-content/uploads/2016/09/React_logo_logotype_emblem.png";
+}
+.body_ul {
+  height: 180px;
+}
+.body_ul li {
+  padding-top: 15px;
+}

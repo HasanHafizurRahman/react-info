@@ -1,0 +1,18 @@
+.nav_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 90px;
+  width: 550px;
+  background-color: #21222a;
+}
+.nav_left {
+  display: flex;
+  align-items: center;
+  color: #61dafb;
+}
+.nav_right {
+  color: #deebf8;
+}
